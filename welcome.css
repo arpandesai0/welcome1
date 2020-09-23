@@ -85,7 +85,7 @@ height:467px;
 background:url(1.jpg);
 background-size:cover;
 margin:130px auto;
-animation: slide 20s infinite;
+animation: slide 30s infinite 3s;
 z-index:-1;
 }
 
