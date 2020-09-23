@@ -1,0 +1,14 @@
+<?php
+$username = "";
+session_start();
+
+if(isset($_SESSION['username']))
+{
+        header("Location: login.html");
+}
+else
+{
+        header("Location: welcome.html");
+}
+
+
